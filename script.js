@@ -14,8 +14,8 @@ let resultado2 = document.getElementById('resultado2');
 
 function converterCentimetros() {
     let metrosA = parseFloat(metros.value);
-    let centimetros = metrosA * 100;
-    resultado2.innerHTML = metrosA + ' metros são ' + centimetros + ' centímetros.';
+    let centimetros = metrosA / 100;
+    resultado2.innerHTML = metrosA + ' centimetros são ' + centimetros + ' metro.';
 }
 
 
