@@ -1,4 +1,3 @@
-//escreva um programa que pergunte o salario do funcionário calcule o valor do aumento de 10%. Para salários inferiores a R$ 1250,00, calcule um aumento de 10%. Para inferiores ou iguais, de 15%
 
 //Script exercício 01
 let clique = document.getElementById('clique');
@@ -88,8 +87,8 @@ function Começar3() {
 
 
 //Script exercício 05
-var salario;
-var aumento;
+let salario;
+let aumento;
 
 function calcularAumento() {
     salario = parseFloat(document.getElementById('salario').value);
